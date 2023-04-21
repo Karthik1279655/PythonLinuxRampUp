@@ -1,0 +1,14 @@
+[
+  {
+    "message_id": "1",
+    "text": "Hello, world!"
+  },
+  {
+    "message_id": "2",
+    "text": "How are you?"
+  },
+  {
+    "message_id": "3",
+    "text": "What's up?"
+  }
+]

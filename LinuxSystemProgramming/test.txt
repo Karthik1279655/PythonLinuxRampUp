@@ -1,0 +1,1 @@
+﻿In Agile methodology, the Product Backlog is a prioritized list of features, requirements, enhancements, and bug fixes that need to be developed for a software product. The Product Backlog is typically created and maintained by the product owner, who is responsible for defining the product vision, identifying the features and requirements, and prioritizing the work.

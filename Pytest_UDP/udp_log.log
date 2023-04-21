@@ -1,0 +1,118 @@
+2023-04-13 12:14:14,317 - INFO - Socket bound successfully
+2023-04-13 12:14:23,030 - INFO - Socket created successfully
+2023-04-13 12:14:23,031 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368263030}
+2023-04-13 12:14:23,031 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368263031}
+2023-04-13 12:14:24,034 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368263030}
+2023-04-13 12:14:24,034 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368264034}
+2023-04-13 12:14:25,037 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368263030}
+2023-04-13 12:14:25,037 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681368265037}
+2023-04-13 12:14:26,038 - INFO - Socket closed successfully
+2023-04-13 12:14:57,528 - INFO - Socket created successfully
+2023-04-13 12:14:57,529 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368297528}
+2023-04-13 12:14:57,529 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368297529}
+2023-04-13 12:14:58,531 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368297528}
+2023-04-13 12:14:58,531 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368298531}
+2023-04-13 12:14:58,743 - INFO - Socket closed successfully
+2023-04-13 12:15:40,836 - INFO - Socket created successfully
+2023-04-13 12:15:40,836 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "transmitter.py", line 36, in read_messages_from_file
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-13 12:15:40,836 - INFO - Socket closed successfully
+2023-04-13 12:22:01,946 - INFO - Socket created successfully
+2023-04-13 12:22:01,946 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "transmitter.py", line 36, in read_messages_from_file
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-13 12:22:01,946 - INFO - Socket closed successfully
+2023-04-13 12:22:23,921 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "receiver.py", line 37, in create_socket
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-13 12:22:34,002 - INFO - Socket bound successfully
+2023-04-13 12:22:46,748 - INFO - Socket created successfully
+2023-04-13 12:22:46,750 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368766748}
+2023-04-13 12:22:46,750 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368766750}
+2023-04-13 12:22:47,753 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368766748}
+2023-04-13 12:22:47,754 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368767753}
+2023-04-13 12:22:48,757 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368766748}
+2023-04-13 12:22:48,757 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681368768757}
+2023-04-13 12:22:49,758 - INFO - Socket closed successfully
+2023-04-13 12:22:57,410 - INFO - Socket created successfully
+2023-04-13 12:22:57,411 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368777410}
+2023-04-13 12:22:57,411 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368777411}
+2023-04-13 12:22:58,415 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368777410}
+2023-04-13 12:22:58,415 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368778415}
+2023-04-13 12:22:58,827 - INFO - Socket closed successfully
+2023-04-13 12:23:10,450 - INFO - Socket created successfully
+2023-04-13 12:23:10,452 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368790451}
+2023-04-13 12:23:10,452 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368790452}
+2023-04-13 12:23:11,078 - INFO - Socket closed successfully
+2023-04-13 12:23:33,440 - INFO - Socket created successfully
+2023-04-13 12:23:33,442 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368813441}
+2023-04-13 12:23:33,442 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368813442}
+2023-04-13 12:23:34,445 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368813441}
+2023-04-13 12:23:34,446 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368814445}
+2023-04-13 12:23:35,449 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368813441}
+2023-04-13 12:23:35,449 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681368815449}
+2023-04-13 12:23:36,450 - INFO - Socket closed successfully
+2023-04-13 12:23:56,373 - INFO - Socket created successfully
+2023-04-13 12:23:56,374 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368836373}
+2023-04-13 12:23:56,374 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681368836374}
+2023-04-13 12:23:57,377 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368836373}
+2023-04-13 12:23:57,377 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681368837377}
+2023-04-13 12:23:58,380 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368836373}
+2023-04-13 12:23:58,380 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681368838380}
+2023-04-13 12:23:59,382 - INFO - Socket closed successfully
+2023-04-13 12:24:22,236 - INFO - Socket created successfully
+2023-04-13 12:24:22,238 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368862237}
+2023-04-13 12:24:23,241 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368862237}
+2023-04-13 12:24:24,244 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368862237}
+2023-04-13 12:24:25,246 - INFO - Socket closed successfully
+2023-04-13 12:24:47,662 - ERROR - Socket binding failed with error: [Errno 13] Permission denied
+Traceback (most recent call last):
+  File "receiver.py", line 37, in create_socket
+    self.sock.bind((self.udp_ip, self.udp_port))
+PermissionError: [Errno 13] Permission denied
+2023-04-13 12:24:53,419 - INFO - Socket created successfully
+2023-04-13 12:24:53,420 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681368893419}
+2023-04-13 12:24:54,423 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681368893419}
+2023-04-13 12:24:55,426 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681368893419}
+2023-04-13 12:24:56,427 - INFO - Socket closed successfully
+2023-04-13 14:51:36,562 - INFO - Socket bound successfully
+2023-04-13 14:51:51,958 - INFO - Socket created successfully
+2023-04-13 14:51:51,959 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681377711958}
+2023-04-13 14:51:51,959 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681377711959}
+2023-04-13 14:51:52,222 - INFO - Socket closed successfully
+2023-04-13 14:52:28,027 - INFO - Socket created successfully
+2023-04-13 14:52:28,027 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681377748027}
+2023-04-13 14:52:28,027 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681377748027}
+2023-04-13 14:52:29,028 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681377748027}
+2023-04-13 14:52:29,028 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681377749028}
+2023-04-13 14:52:30,030 - INFO - Sent message: {"message_id": 3, "text": "I'm doing well", "time": 1681377748027}
+2023-04-13 14:52:30,030 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681377750030}
+2023-04-13 14:52:31,031 - INFO - Socket closed successfully
+2023-04-13 14:52:42,831 - INFO - Socket created successfully
+2023-04-13 14:52:42,831 - INFO - Sent message: {"message_id": 1, "text": "Hello! Karthik", "time": 1681377762831}
+2023-04-13 14:52:42,832 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681377762832}
+2023-04-13 14:52:43,832 - INFO - Sent message: {"message_id": 2, "text": "How are you?", "time": 1681377762831}
+2023-04-13 14:52:43,832 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681377763832}
+2023-04-13 14:52:44,189 - INFO - Socket closed successfully
+2023-04-13 14:54:44,409 - INFO - Socket created successfully
+2023-04-13 14:54:44,411 - ERROR - Message transferring failed with error: [Errno 22] Invalid argument
+Traceback (most recent call last):
+  File "transmitter.py", line 52, in _send_message
+    self.sock.sendto(message_str.encode(), (self.udp_ip, self.udp_port))
+OSError: [Errno 22] Invalid argument
+2023-04-13 14:54:44,411 - INFO - Socket closed successfully
+2023-04-13 14:55:17,039 - INFO - Socket bound successfully
+2023-04-13 14:55:22,478 - INFO - Socket created successfully
+2023-04-13 14:55:22,479 - ERROR - Message transferring failed with error: [Errno 22] Invalid argument
+Traceback (most recent call last):
+  File "transmitter.py", line 52, in _send_message
+    self.sock.sendto(message_str.encode(), (self.udp_ip, self.udp_port))
+OSError: [Errno 22] Invalid argument
+2023-04-13 14:55:22,479 - INFO - Socket closed successfully

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package studentInformation;
+
+enum StudentResult {
+    PASS = 0;
+    FAIL = 1;
+    NOT_APPEARED = 2;
+    RESULT_UNDECLARED = 3;
+    PASS_WITH_GRACE = 4;
+}
+
+message StudentList {
+    int32 student_id = 1;
+    string student_name = 2;
+
+    message StudentDetails {
+        StudentResult result = 1;
+        int32 total_marks = 2;
+        int32 marks_obtain = 3;
+    }
+    repeated StudentDetails student = 3;
+}

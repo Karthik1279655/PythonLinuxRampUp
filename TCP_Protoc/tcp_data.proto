@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message StudentList {
+    int32 student_id = 1;
+    string student_name = 2;
+    int32 age = 3;
+    string address = 4;
+    repeated string phone_number = 5;
+}

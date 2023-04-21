@@ -1,0 +1,678 @@
+2023-04-10 09:35:51,065 - INFO - Socket created successfully
+2023-04-10 09:35:51,066 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681099551066}
+2023-04-10 09:35:51,066 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681099551066}
+2023-04-10 09:35:51,066 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681099551066}
+2023-04-10 09:35:51,066 - INFO - Socket closed successfully
+2023-04-10 09:36:01,907 - INFO - Socket bound successfully
+2023-04-10 09:36:05,862 - INFO - Socket created successfully
+2023-04-10 09:36:05,862 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681099565862}
+2023-04-10 09:36:05,862 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681099565862}
+2023-04-10 09:36:05,862 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681099565862}
+2023-04-10 09:36:05,862 - INFO - Socket closed successfully
+2023-04-10 09:36:05,862 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': '2023-04-10 09:36:05'}
+2023-04-10 09:36:05,862 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': '2023-04-10 09:36:05'}
+2023-04-10 09:36:05,862 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': '2023-04-10 09:36:05'}
+2023-04-10 09:37:05,555 - INFO - Socket bound successfully
+2023-04-10 09:37:21,169 - INFO - Socket created successfully
+2023-04-10 09:37:21,169 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681099641169}
+2023-04-10 09:37:21,169 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681099641169}
+2023-04-10 09:37:21,169 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681099641169}
+2023-04-10 09:37:21,169 - INFO - Socket closed successfully
+2023-04-10 09:37:21,169 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': '2023-04-10 09:37:21'}
+2023-04-10 09:37:21,170 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': '2023-04-10 09:37:21'}
+2023-04-10 09:37:21,170 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': '2023-04-10 09:37:21'}
+2023-04-10 09:38:40,014 - INFO - Socket created successfully
+2023-04-10 09:38:40,014 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681099720014}
+2023-04-10 09:38:40,014 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681099720014}
+2023-04-10 09:38:40,014 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681099720014}
+2023-04-10 09:38:40,014 - INFO - Socket closed successfully
+2023-04-10 09:38:40,014 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': '2023-04-10 09:38:40'}
+2023-04-10 09:38:40,014 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': '2023-04-10 09:38:40'}
+2023-04-10 09:38:40,014 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': '2023-04-10 09:38:40'}
+2023-04-10 09:41:39,185 - INFO - Socket bound successfully
+2023-04-10 09:41:50,835 - INFO - Socket created successfully
+2023-04-10 09:41:50,835 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 33, in transmit_messages
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-10 09:41:50,835 - INFO - Socket closed successfully
+2023-04-10 10:12:43,692 - INFO - Socket bound successfully
+2023-04-10 10:12:56,923 - INFO - Socket created successfully
+2023-04-10 10:12:56,923 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681101776923}
+2023-04-10 10:12:56,923 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681101776923}
+2023-04-10 10:12:56,923 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681101776923}
+2023-04-10 10:12:56,923 - INFO - Socket closed successfully
+2023-04-10 10:12:56,924 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681101776923}
+2023-04-10 10:12:56,924 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681101776924}
+2023-04-10 10:12:56,924 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681101776924}
+2023-04-10 10:13:37,215 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 81, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-10 10:14:24,793 - INFO - Socket bound successfully
+2023-04-10 10:14:36,772 - INFO - Socket created successfully
+2023-04-10 10:14:36,773 - INFO - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681101876773}
+2023-04-10 10:14:36,773 - INFO - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681101876773}
+2023-04-10 10:14:36,773 - INFO - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681101876773}
+2023-04-10 10:14:36,773 - INFO - Socket closed successfully
+2023-04-10 10:14:36,773 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681101876773}
+2023-04-10 10:14:36,773 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681101876773}
+2023-04-10 10:14:36,773 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681101876773}
+2023-04-11 14:48:26,840 - INFO - Socket bound successfully
+2023-04-11 14:50:53,591 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 80, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 14:51:01,701 - INFO - Socket bound successfully
+2023-04-11 14:52:39,190 - INFO - Socket bound successfully
+2023-04-11 15:04:34,432 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 80, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:04:53,245 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 80, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:05:06,185 - INFO - Socket bound successfully
+2023-04-11 15:16:25,529 - INFO - Socket bound successfully
+2023-04-11 15:17:18,644 - INFO - Socket created successfully
+2023-04-11 15:17:18,645 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:17:18,646 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681206438645}
+2023-04-11 15:17:18,646 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681206438646}
+2023-04-11 15:17:18,647 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681206438646}
+2023-04-11 15:17:18,647 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681206438647}
+2023-04-11 15:17:18,647 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681206438647}
+2023-04-11 15:17:18,647 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681206438647}
+2023-04-11 15:17:18,647 - INFO - Socket closed successfully
+2023-04-11 15:36:39,649 - INFO - Socket bound successfully
+2023-04-11 15:37:10,179 - INFO - Socket created successfully
+2023-04-11 15:37:10,179 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:37:10,180 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681207630179}
+2023-04-11 15:37:10,180 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681207630180}
+2023-04-11 15:37:10,180 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681207630180}
+2023-04-11 15:37:10,180 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681207630180}
+2023-04-11 15:37:10,181 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681207630180}
+2023-04-11 15:37:10,181 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681207630181}
+2023-04-11 15:37:10,181 - INFO - Socket closed successfully
+2023-04-11 15:38:26,619 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:38:34,855 - INFO - Socket created successfully
+2023-04-11 15:38:34,855 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:38:34,856 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681207714855}
+2023-04-11 15:38:34,856 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681207714856}
+2023-04-11 15:38:34,857 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681207714856}
+2023-04-11 15:38:34,857 - INFO - Socket closed successfully
+2023-04-11 15:39:01,786 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:47:10,407 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:47:19,858 - INFO - Socket bound successfully
+2023-04-11 15:47:34,981 - INFO - Socket created successfully
+2023-04-11 15:47:34,981 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:47:34,983 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208254981}
+2023-04-11 15:47:34,983 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208254983}
+2023-04-11 15:47:34,990 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208254989}
+2023-04-11 15:47:34,990 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208254990}
+2023-04-11 15:47:34,990 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208254990}
+2023-04-11 15:47:34,990 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208254990}
+2023-04-11 15:47:34,990 - INFO - Socket closed successfully
+2023-04-11 15:47:50,256 - INFO - Socket closed successfully
+2023-04-11 15:50:37,987 - INFO - Socket bound successfully
+2023-04-11 15:50:46,336 - INFO - Socket created successfully
+2023-04-11 15:50:46,336 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:50:46,337 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208446336}
+2023-04-11 15:50:46,337 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208446337}
+2023-04-11 15:50:46,338 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208446337}
+2023-04-11 15:50:46,338 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208446338}
+2023-04-11 15:50:46,338 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208446338}
+2023-04-11 15:50:46,338 - INFO - Socket closed successfully
+2023-04-11 15:50:46,338 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208446338}
+2023-04-11 15:51:02,052 - INFO - Socket closed successfully
+2023-04-11 15:57:53,951 - INFO - Socket bound successfully
+2023-04-11 15:58:05,527 - INFO - Socket created successfully
+2023-04-11 15:58:05,528 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:58:05,528 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208885528}
+2023-04-11 15:58:05,529 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208885529}
+2023-04-11 15:58:05,529 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208885529}
+2023-04-11 15:58:05,529 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208885529}
+2023-04-11 15:58:05,530 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208885529}
+2023-04-11 15:58:05,530 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208885530}
+2023-04-11 15:58:05,530 - INFO - Socket closed successfully
+2023-04-11 15:58:35,178 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 15:58:41,579 - INFO - Socket bound successfully
+2023-04-11 15:58:52,427 - INFO - Socket closed successfully
+2023-04-11 15:59:13,016 - INFO - Socket bound successfully
+2023-04-11 15:59:27,105 - INFO - Socket created successfully
+2023-04-11 15:59:27,105 - DEBUG - Opened JSON file messages.json
+2023-04-11 15:59:27,107 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208967106}
+2023-04-11 15:59:27,107 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681208967107}
+2023-04-11 15:59:27,107 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208967107}
+2023-04-11 15:59:27,107 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681208967107}
+2023-04-11 15:59:27,108 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208967107}
+2023-04-11 15:59:27,108 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681208967108}
+2023-04-11 15:59:27,108 - INFO - Socket closed successfully
+2023-04-11 15:59:56,734 - INFO - Socket closed successfully
+2023-04-11 16:01:57,488 - INFO - Socket bound successfully
+2023-04-11 16:02:15,863 - INFO - Socket created successfully
+2023-04-11 16:02:15,863 - DEBUG - Opened JSON file messages.json
+2023-04-11 16:02:15,864 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209135863}
+2023-04-11 16:02:15,864 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209135864}
+2023-04-11 16:02:15,865 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209135864}
+2023-04-11 16:02:15,865 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209135865}
+2023-04-11 16:02:15,866 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209135865}
+2023-04-11 16:02:15,866 - INFO - Socket closed successfully
+2023-04-11 16:02:15,866 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209135866}
+2023-04-11 16:02:35,628 - INFO - Socket created successfully
+2023-04-11 16:02:35,628 - DEBUG - Opened JSON file messages.json
+2023-04-11 16:02:35,629 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209155628}
+2023-04-11 16:02:35,629 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209155629}
+2023-04-11 16:02:35,637 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209155636}
+2023-04-11 16:02:35,637 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209155637}
+2023-04-11 16:02:35,638 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209155637}
+2023-04-11 16:02:35,638 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209155638}
+2023-04-11 16:02:35,638 - INFO - Socket closed successfully
+2023-04-11 16:02:51,942 - INFO - Socket created successfully
+2023-04-11 16:02:51,942 - DEBUG - Opened JSON file messages.json
+2023-04-11 16:02:51,943 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209171942}
+2023-04-11 16:02:51,943 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209171943}
+2023-04-11 16:02:51,950 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209171950}
+2023-04-11 16:02:51,950 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209171950}
+2023-04-11 16:02:51,951 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209171950}
+2023-04-11 16:02:51,951 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209171951}
+2023-04-11 16:02:51,951 - INFO - Socket closed successfully
+2023-04-11 16:03:07,016 - INFO - Socket created successfully
+2023-04-11 16:03:07,016 - DEBUG - Opened JSON file messages.json
+2023-04-11 16:03:07,017 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209187016}
+2023-04-11 16:03:07,017 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209187017}
+2023-04-11 16:03:07,018 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209187017}
+2023-04-11 16:03:07,018 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209187018}
+2023-04-11 16:03:07,018 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209187018}
+2023-04-11 16:03:07,018 - INFO - Socket closed successfully
+2023-04-11 16:03:07,018 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209187018}
+2023-04-11 16:04:00,212 - INFO - Socket created successfully
+2023-04-11 16:04:00,212 - DEBUG - Opened JSON file messages.json
+2023-04-11 16:04:00,213 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209240212}
+2023-04-11 16:04:00,213 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681209240213}
+2023-04-11 16:04:00,213 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209240213}
+2023-04-11 16:04:00,213 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681209240213}
+2023-04-11 16:04:00,214 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209240213}
+2023-04-11 16:04:00,214 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681209240214}
+2023-04-11 16:04:00,214 - INFO - Socket closed successfully
+2023-04-11 16:04:36,705 - ERROR - Socket binding failed with error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+OSError: [Errno 98] Address already in use
+2023-04-11 16:04:57,582 - ERROR - Socket binding failed with error: [Errno 13] Permission denied
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 85, in __init__
+    self.sock.bind((self.udp_ip, self.udp_port))
+PermissionError: [Errno 13] Permission denied
+2023-04-11 16:06:09,842 - INFO - Socket bound successfully
+2023-04-11 16:06:23,678 - INFO - Socket created successfully
+2023-04-11 16:06:23,678 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 44, in read_messages_from_file
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-11 16:06:23,678 - INFO - Socket closed successfully
+2023-04-11 18:23:11,014 - INFO - Socket created successfully
+2023-04-11 18:23:11,015 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 44, in read_messages_from_file
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-11 18:23:11,015 - INFO - Socket closed successfully
+2023-04-11 18:23:21,124 - INFO - Socket bound successfully
+2023-04-11 18:23:27,052 - INFO - Socket created successfully
+2023-04-11 18:23:27,052 - ERROR - Error: message.json not found. [Errno 2] No such file or directory: 'message.json'
+Traceback (most recent call last):
+  File "/home/ee212783/PycharmProjects/PythonLinuxRampUp/PracticePackage/udp_task2.py", line 44, in read_messages_from_file
+    with open(self.json_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'message.json'
+2023-04-11 18:23:27,052 - INFO - Socket closed successfully
+2023-04-11 18:23:42,486 - INFO - Socket created successfully
+2023-04-11 18:23:42,494 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:23:42,495 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217622494}
+2023-04-11 18:23:42,496 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217622495}
+2023-04-11 18:23:42,496 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217622496}
+2023-04-11 18:23:42,496 - INFO - Socket closed successfully
+2023-04-11 18:23:50,378 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 18:23:59,981 - INFO - Socket bound successfully
+2023-04-11 18:24:31,917 - INFO - Socket created successfully
+2023-04-11 18:24:31,917 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:24:31,918 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217671917}
+2023-04-11 18:24:31,918 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217671918}
+2023-04-11 18:24:31,918 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217671918}
+2023-04-11 18:24:31,919 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217671918}
+2023-04-11 18:24:31,919 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217671919}
+2023-04-11 18:24:31,919 - INFO - Socket closed successfully
+2023-04-11 18:24:31,919 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217671919}
+2023-04-11 18:24:43,487 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 18:24:56,142 - INFO - Socket created successfully
+2023-04-11 18:24:56,142 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:24:56,143 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217696142}
+2023-04-11 18:24:56,144 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217696143}
+2023-04-11 18:24:56,144 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217696144}
+2023-04-11 18:24:56,144 - INFO - Socket closed successfully
+2023-04-11 18:25:09,770 - INFO - Socket bound successfully
+2023-04-11 18:26:14,522 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 18:27:10,022 - INFO - Socket bound successfully
+2023-04-11 18:27:15,243 - INFO - Socket created successfully
+2023-04-11 18:27:15,243 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:27:15,244 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217835243}
+2023-04-11 18:27:15,244 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217835244}
+2023-04-11 18:27:15,244 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217835244}
+2023-04-11 18:27:15,245 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217835244}
+2023-04-11 18:27:15,245 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217835244}
+2023-04-11 18:27:15,245 - INFO - Socket closed successfully
+2023-04-11 18:27:15,245 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217835245}
+2023-04-11 18:27:23,206 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 18:27:39,066 - INFO - Socket bound successfully
+2023-04-11 18:27:48,139 - INFO - Socket created successfully
+2023-04-11 18:27:48,139 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:27:48,140 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217868139}
+2023-04-11 18:27:48,140 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217868140}
+2023-04-11 18:27:48,140 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217868140}
+2023-04-11 18:27:48,140 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217868140}
+2023-04-11 18:27:48,141 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217868140}
+2023-04-11 18:27:48,141 - INFO - Socket closed successfully
+2023-04-11 18:27:48,141 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217868141}
+2023-04-11 18:28:01,747 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 18:28:14,221 - INFO - Socket bound successfully
+2023-04-11 18:28:25,316 - INFO - Socket created successfully
+2023-04-11 18:28:25,316 - DEBUG - Opened JSON file messages.json
+2023-04-11 18:28:25,317 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217905316}
+2023-04-11 18:28:25,317 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681217905317}
+2023-04-11 18:28:25,317 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217905317}
+2023-04-11 18:28:25,317 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681217905317}
+2023-04-11 18:28:25,318 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217905318}
+2023-04-11 18:28:25,318 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681217905318}
+2023-04-11 18:28:25,318 - INFO - Socket closed successfully
+2023-04-11 23:01:42,224 - INFO - Socket bound successfully
+2023-04-11 23:01:51,378 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-11 23:05:08,461 - INFO - Socket created successfully
+2023-04-11 23:05:08,469 - DEBUG - Opened JSON file messages.json
+2023-04-11 23:05:08,470 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681234508469}
+2023-04-11 23:05:08,471 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681234508470}
+2023-04-11 23:05:08,472 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681234508471}
+2023-04-11 23:05:08,472 - INFO - Socket closed successfully
+2023-04-11 23:05:49,808 - INFO - Socket bound successfully
+2023-04-11 23:06:02,381 - INFO - Socket created successfully
+2023-04-11 23:06:02,381 - DEBUG - Opened JSON file messages.json
+2023-04-11 23:06:02,382 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681234562381}
+2023-04-11 23:06:02,383 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681234562382}
+2023-04-11 23:06:02,383 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681234562383}
+2023-04-11 23:06:02,383 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681234562383}
+2023-04-11 23:06:02,384 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681234562383}
+2023-04-11 23:06:02,384 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681234562384}
+2023-04-11 23:06:02,384 - INFO - Socket closed successfully
+2023-04-12 10:24:22,022 - INFO - Socket bound successfully
+2023-04-12 10:24:36,891 - INFO - Socket created successfully
+2023-04-12 10:24:36,892 - DEBUG - Opened JSON file messages.json
+2023-04-12 10:24:36,893 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275276892}
+2023-04-12 10:24:36,893 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275276893}
+2023-04-12 10:24:36,894 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275276893}
+2023-04-12 10:24:36,894 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275276894}
+2023-04-12 10:24:36,894 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275276894}
+2023-04-12 10:24:36,894 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275276894}
+2023-04-12 10:24:36,894 - INFO - Socket closed successfully
+2023-04-12 10:24:47,548 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-12 10:24:52,592 - INFO - Socket bound successfully
+2023-04-12 10:25:02,956 - INFO - Socket created successfully
+2023-04-12 10:25:02,956 - DEBUG - Opened JSON file messages.json
+2023-04-12 10:25:02,957 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275302956}
+2023-04-12 10:25:02,957 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275302957}
+2023-04-12 10:25:02,958 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275302957}
+2023-04-12 10:25:02,958 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275302958}
+2023-04-12 10:25:02,958 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275302958}
+2023-04-12 10:25:02,958 - INFO - Socket closed successfully
+2023-04-12 10:25:02,958 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275302958}
+2023-04-12 10:25:20,100 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-12 10:25:37,042 - INFO - Socket bound successfully
+2023-04-12 10:26:07,149 - INFO - Socket created successfully
+2023-04-12 10:26:07,149 - DEBUG - Opened JSON file messages.json
+2023-04-12 10:26:07,150 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275367149}
+2023-04-12 10:26:07,150 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275367150}
+2023-04-12 10:26:07,151 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275367150}
+2023-04-12 10:26:07,151 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275367151}
+2023-04-12 10:26:07,151 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275367151}
+2023-04-12 10:26:07,151 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275367151}
+2023-04-12 10:26:07,151 - INFO - Socket closed successfully
+2023-04-12 10:26:29,130 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-12 10:27:16,914 - INFO - Socket bound successfully
+2023-04-12 10:27:27,075 - INFO - Socket created successfully
+2023-04-12 10:27:27,075 - DEBUG - Opened JSON file messages.json
+2023-04-12 10:27:27,077 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275447075}
+2023-04-12 10:27:27,077 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275447077}
+2023-04-12 10:27:27,077 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275447077}
+2023-04-12 10:27:27,077 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275447077}
+2023-04-12 10:27:27,078 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275447077}
+2023-04-12 10:27:27,078 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275447078}
+2023-04-12 10:27:27,078 - INFO - Socket closed successfully
+2023-04-12 10:27:38,318 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-12 10:27:53,594 - INFO - Socket bound successfully
+2023-04-12 10:28:43,975 - INFO - Socket created successfully
+2023-04-12 10:28:43,975 - DEBUG - Opened JSON file messages.json
+2023-04-12 10:28:43,976 - DEBUG - Sent message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275523975}
+2023-04-12 10:28:43,976 - INFO - Received message: {'message_id': 1, 'text': 'Hello! Karthik', 'time': 1681275523976}
+2023-04-12 10:28:43,977 - DEBUG - Sent message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275523976}
+2023-04-12 10:28:43,977 - INFO - Received message: {'message_id': 2, 'text': 'How are you?', 'time': 1681275523977}
+2023-04-12 10:28:43,978 - DEBUG - Sent message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275523977}
+2023-04-12 10:28:43,978 - INFO - Received message: {'message_id': 3, 'text': "I'm doing well", 'time': 1681275523978}
+2023-04-12 10:28:43,978 - INFO - Socket closed successfully
+2023-04-12 10:28:54,799 - ERROR - Socket closed successfully: KeyboardInterrupt
+NoneType: None
+2023-04-12 18:49:12,419 - INFO - UDP Socket created successfully
+2023-04-12 18:49:12,421 - DEBUG - Opened JSON file messages.json
+2023-04-12 18:49:14,422 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:17,426 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:20,432 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:23,437 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:26,443 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:29,446 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:32,450 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:35,454 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:38,458 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:41,462 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:44,466 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:47,470 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:50,476 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:53,481 - DEBUG - Waiting for receiver: timed out
+2023-04-12 18:49:54,486 - DEBUG - Message 1 sent successfully. time: 1681305594484
+2023-04-12 18:49:56,488 - DEBUG - Message 2 sent successfully. time: 1681305596486
+2023-04-12 18:49:58,493 - DEBUG - Message 3 sent successfully. time: 1681305598491
+2023-04-12 18:50:00,498 - DEBUG - All messages sent successfully
+2023-04-12 21:11:02,856 - INFO - UDP Socket created successfully
+2023-04-12 21:11:02,856 - DEBUG - Opened JSON file messages.json
+2023-04-12 21:11:02,858 - DEBUG - Message 1 sent successfully. time: 1681314062857
+2023-04-12 21:11:04,861 - DEBUG - Message 2 sent successfully. time: 1681314064858
+2023-04-12 21:11:06,865 - DEBUG - Message 3 sent successfully. time: 1681314066862
+2023-04-12 21:11:08,867 - DEBUG - All messages sent successfully
+2023-04-12 21:14:58,298 - INFO - UDP Socket created successfully
+2023-04-12 21:14:58,298 - DEBUG - Opened JSON file messages.json
+2023-04-12 21:14:58,300 - DEBUG - Message 1 sent successfully. time: 1681314298299
+2023-04-12 21:15:00,305 - DEBUG - Message 2 sent successfully. time: 1681314300302
+2023-04-12 21:15:02,309 - DEBUG - Message 3 sent successfully. time: 1681314302306
+2023-04-12 21:15:04,313 - DEBUG - All messages sent successfully
+2023-04-12 21:51:02,022 - INFO - UDP socket created successfully
+2023-04-12 21:51:02,024 - INFO - Bound socket to localhost:5113
+2023-04-12 21:51:32,048 - INFO - UDP Socket created successfully
+2023-04-12 21:51:32,048 - DEBUG - Opened JSON file messages.json
+2023-04-12 21:51:34,050 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:37,056 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:40,061 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:43,067 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:46,072 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:49,078 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:52,082 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:55,088 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:51:58,093 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:01,098 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:04,102 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:07,106 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:10,112 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:13,117 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:16,122 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:19,126 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:22,132 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:25,138 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:28,144 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:31,149 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:34,154 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:37,159 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:40,164 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:43,167 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:46,170 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:49,175 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:52,181 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:55,186 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:52:58,190 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:01,196 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:04,202 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:07,206 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:10,210 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:13,214 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:16,218 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:19,222 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:22,226 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:53:24,109 - DEBUG - Sent exit message
+2023-04-12 21:53:24,110 - DEBUG - UDP Socket closed successfully
+2023-04-12 21:55:30,083 - INFO - UDP Socket created successfully
+2023-04-12 21:55:30,083 - DEBUG - Opened JSON file messages.json
+2023-04-12 21:55:32,086 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:55:35,092 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:55:38,098 - DEBUG - Waiting for receiver: timed out
+2023-04-12 21:55:40,607 - DEBUG - Sent exit message
+2023-04-12 21:55:40,607 - DEBUG - UDP Socket closed successfully
+2023-04-12 22:03:39,634 - INFO - UDP Socket created successfully
+2023-04-12 22:03:39,634 - DEBUG - Opened JSON file messages.json
+2023-04-12 22:03:41,637 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:44,643 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:47,648 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:50,654 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:53,660 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:56,665 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:03:59,670 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:02,674 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:05,680 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:08,685 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:11,691 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:14,697 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:17,703 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:20,709 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:23,714 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:26,720 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:29,726 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:32,730 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:35,735 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:38,740 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:41,746 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:44,750 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:47,756 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:50,761 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:53,765 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:56,770 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:04:59,774 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:02,780 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:05,786 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:08,790 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:11,796 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:14,801 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:17,807 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:20,812 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:23,818 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:26,822 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:29,826 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:32,832 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:35,837 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:38,843 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:41,848 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:44,853 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:47,858 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:50,862 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:53,868 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:56,874 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:05:59,878 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:02,882 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:05,888 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:08,894 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:11,899 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:14,905 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:17,911 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:06:18,867 - DEBUG - Sent exit message
+2023-04-12 22:06:18,867 - DEBUG - UDP Socket closed successfully
+2023-04-12 22:14:07,228 - INFO - UDP Socket created successfully
+2023-04-12 22:14:07,228 - DEBUG - Opened JSON file messages.json
+2023-04-12 22:14:09,231 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:12,237 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:15,243 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:18,249 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:21,255 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:24,260 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:27,266 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:30,270 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:33,274 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:36,278 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:39,284 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:42,290 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:45,296 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:48,301 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:51,307 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:54,313 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:14:57,319 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:00,324 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:03,330 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:06,336 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:09,342 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:12,346 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:15,350 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:18,356 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:21,360 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:24,364 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:27,369 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:30,375 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:33,381 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:36,386 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:39,392 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:42,399 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:45,405 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:48,410 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:51,416 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:54,422 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:15:57,426 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:16:00,430 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:16:03,434 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:16:06,440 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:16:09,446 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:10,794 - INFO - UDP socket created successfully
+2023-04-12 22:24:10,795 - INFO - Bound socket to localhost:5115
+2023-04-12 22:24:32,745 - INFO - UDP Socket created successfully
+2023-04-12 22:24:32,745 - DEBUG - Opened JSON file messages.json
+2023-04-12 22:24:34,746 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:37,750 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:40,756 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:43,761 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:46,766 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:49,770 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:52,776 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:55,781 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:24:58,787 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:01,792 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:04,798 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:07,803 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:10,808 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:13,813 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:16,817 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:19,823 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:22,826 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:25,832 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:28,837 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:31,842 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:34,846 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:37,850 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:40,854 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:43,860 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:46,866 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:49,872 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:52,877 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:55,883 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:25:58,889 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:01,894 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:04,900 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:07,906 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:10,911 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:13,916 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:16,921 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:19,926 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:22,930 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:25,934 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:28,938 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:31,944 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:34,950 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:37,955 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:40,960 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:43,966 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:46,970 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:49,976 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:51,838 - INFO - Interrupt occurs...Ending Receiver..
+2023-04-12 22:26:52,981 - DEBUG - Waiting for receiver: timed out
+2023-04-12 22:26:55,818 - DEBUG - Sent exit message
+2023-04-12 22:26:55,818 - DEBUG - UDP Socket closed successfully
+2023-04-13 11:20:02,900 - INFO - UDP socket created successfully
+2023-04-13 11:20:02,901 - INFO - Bound socket to localhost:5115
+2023-04-13 11:20:21,039 - INFO - UDP Socket created successfully
+2023-04-13 11:20:21,039 - DEBUG - Opened JSON file messages.json
+2023-04-13 11:20:23,043 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:26,047 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:29,052 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:32,058 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:35,064 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:38,070 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:41,076 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:44,079 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:47,084 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:50,088 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:53,092 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:56,096 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:20:59,101 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:02,106 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:05,111 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:08,117 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:11,123 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:14,128 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:17,132 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:20,136 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:23,140 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:26,144 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:29,148 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:32,152 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:35,157 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:38,163 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:41,168 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:44,173 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:47,179 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:50,185 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:53,191 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:56,196 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:21:59,200 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:02,205 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:05,209 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:08,214 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:11,220 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:14,226 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:17,231 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:20,236 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:23,240 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:26,245 - DEBUG - Waiting for receiver: timed out
+2023-04-13 11:22:26,683 - DEBUG - Sent exit message
+2023-04-13 11:22:26,684 - DEBUG - UDP Socket closed successfully
+2023-04-13 11:22:33,300 - INFO - Interrupt occurs...Ending Receiver..
